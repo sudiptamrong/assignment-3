@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+a{
+    display: inline-block;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.padding_115px{
+    padding: 0 115px;
+}
+
+.transform,
+.five_ways,
+.reason,
+.bag_leash{
+    border-width: 0 1px 0 1px;
+    border-style: solid;
+    border-color: #d6d6cc;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.p{
+    font-family: 'Rubik', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 159%;
+    letter-spacing: 0.2px;
+}
+
+/* Header Start */
+header{
+    padding: 10px 0;
+    background-color: #0AB7E8;
+}
+
+header .row{
+    gap: 3%;
+    align-items: center;
+}
+
+header .row .col_left{
+    width: 40%;
+}
+
+header .row .col_left a img{
+    width: 100%;
+    max-width: 100px;
+}
+
+header .row .col_right{
+    width: 57%;
+    text-align: center;
+}
+
+header .row .col_right h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 33px;
+    color: #FFFFFF;
+    font-weight: 600;
+    line-height: 110%;
+}
+
+header .row .col_right a{
+    display: inline-flex;
+    align-items: center;
+    margin: 8px 0 5px;
+    padding: 8px 24px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 600;
+    line-height: 180%;
+    letter-spacing: 2.24px;
+    background-color: #FF7062;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+header .row .col_right a span{
+    margin-left: 8px;
+    font-size: 14px;
+}
+/* Header End */
+
+
+/* Section_1 Start */
+.section_1, .section_3, .section_5, .section_6, .section_7{
+    background-color: #d8e7ec;
+}
+
+.transform{
+    padding: 40px 50px 0;
+}
+
+.transform .row{
+    gap: 4%;
+    align-items: center;
+}
+
+.transform .row .col_1_2{
+    width: 48%;
+    font-family: 'Poppins', sans-serif;
+    color: #2C2B2B;
+    text-align: center;
+}
+
+.transform img{
+    max-width: 100%;
+}
+
+.transform h2{
+    font-size: 41px;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+.transform h3{
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+.five_ways{
+    padding: 30px 150px 10px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #2C2B2B;
+}
+
+.five_ways p{
+    padding: 0 30px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 130%;
+}
+
+.five_ways h2{
+    color: #050505;
+    line-height: 120%;
+    letter-spacing: 0.6px;
+}
+
+.five_ways ul{
+    display: inline-block;
+    padding: 18px 0 18px;
+}
+
+.five_ways ul li{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 18px;
+    list-style: none;
+    letter-spacing: 0.6px;
+}
+
+.five_ways ul li span{
+    font-size: 20px;
+}
+
+.reason{
+    padding: 40px 80px;
+}
+
+.reason .row{
+    gap: 10px;
+}
+
+.reason .row .col_1_2{
+    width: 100%;
+    max-width: 399px;
+    height: 399px;
+}
+
+.reason_img,
+.reason_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.reason_content{
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #0AB7E8;
+}
+
+.reason_content img{
+    width: 38px;
+    height: 38px !important;
+    margin: auto;
+}
+
+.reason_content h2{
+    padding: 10px 0;
+}
+
+.bag_leash{
+    padding: 45px 40px 30px;
+    background-color: #0AB7E8;
+}
+
+.bag_leash .row{
+    gap: 20px;
+    align-items: center;
+}
+
+.bag_leash .row .col_1_2{
+    width: 100%;
+    max-width: 434px;
+}
+
+.bag_leash_content{
+    text-align: center;
+}
+
+.bag_leash_content p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 19px;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.bag_leash_content p:nth-child(2){
+    padding: 15px 0 13px;
+}
+
+.raves_title{
+    padding: 30px 0 15px;
+    text-align: center;
+}
+
+.raves_title h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 27px;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+.raves .row{
+    gap: 30px;
+}
+.raves .row .col_1_3{
+    width: 100%;
+    max-width: 276px;
+    display: flex;
+    justify-content: center;
+}
+
+.raves .row .col_1_3:nth-child(1) img{
+    max-width: 150px;
+}
+
+.raves .row .col_1_3:nth-child(2) img{
+    max-width: 120px;
+}
+
+.raves .row .col_1_3:nth-child(3) img{
+    max-width: 120px;
+}
+/* Section_1 End */
+
+/* Section_2 Start */
+.section_2{
+    background-image: url(../images/banner-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section_2 .overlay{
+    padding: 150px 0;
+    background-color: rgba(10, 183, 232, 0.2);
+}
+
+.banner_1{
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.banner_1 h2,
+.banner_2 h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.banner_1 p,
+.banner_2 p{
+    padding: 10px 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.banner_1 a,
+.action_content a{
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 32px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    color: #2C2B2B;
+    font-weight: 600;
+    line-height: 180%;
+    letter-spacing: 2.24px;
+    background-color: #FF7062;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.banner_1 a span,
+.action_content a span{
+    margin-left: 8px;
+    font-size: 12px;
+}
+/* Section_2 End */
+
+/* Section_4 Start */
+.section_4,
+.section_9{
+    padding: 54px 0;
+    background-color: #0AB7E8;
+}
+
+.section_4 .call_to_action{
+    width: 100%;
+    max-width: 640px;
+    margin: auto;
+}
+
+.section_4 .call_to_action .row{
+    gap: 30px;
+    align-items: center;
+}
+
+.section_4 .call_to_action .row .col_left{
+    width: 100%;
+    max-width: 468px;
+}
+
+.section_4 .call_to_action .row .col_right{
+    width: 100%;
+    max-width: 142px;
+}
+
+.action_content{
+    text-align: center;
+}
+
+.action_content h2{
+    padding-bottom: 10px;
+}
+
+.action_content a{
+    padding: 8px 24px;
+}
+/* Section_4 End */
+
+/* Section_6 Start */
+.easier{
+    padding: 40px 80px 50px;
+    background-color: #0AB7E8;
+}
+
+.easier_title{
+    text-align: center;
+}
+
+.easier_title h2{
+    padding: 10px 0 30px;
+}
+
+.easier .row{
+    gap: 80px;
+    justify-content: center;
+}
+
+.easier .row .col_1_3{
+    width: 100%;
+    max-width: 190px;
+    text-align: center;
+}
+
+.easier .row .col_1_3 svg{
+    width: 40px;
+    height: 40px;
+}
+
+.easier .row .col_1_3 .star_icon{
+    fill: #FFFFFF;
+}
+
+.easier .row .col_1_3 p{
+    padding-top: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 120%;
+}
+/* Section_6 End */
+
+/* Section_8 Start */
+.section_8{
+    background-image: url(../images/banner-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section_8 .overlay{
+    padding: 150px 0;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.banner_2{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+/* Section_8 End */
+
+/* Section_9 Start */
+.section_9 .call_to_action{
+    width: 100%;
+    max-width: 780px;
+    margin: auto;
+}
+
+.section_9 .call_to_action .row{
+    gap: 50px;
+    align-items: center;
+}
+
+.section_9 .call_to_action .row .col_left{
+    width: 100%;
+    max-width: 578px;
+}
+
+.section_9 .call_to_action .row .col_right{
+    width: 100%;
+    max-width: 152px;
+}
+/* Section_9 End */
